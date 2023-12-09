@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://localhost:5000/posts";
+const API_URL = "https://post-blog-backend.vercel.app/posts";
 
 const postService = {
   getAllPosts: () => {
